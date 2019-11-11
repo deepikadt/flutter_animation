@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -159,6 +160,14 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ],
           ),
+          SizedBox(height: 10.0,),
+          RaisedButton(onPressed: (){
+             Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => FlareAnimationPage()),
+            );
+          },child: Text("Move to next screen"),)
+
         ],
       ),
     );

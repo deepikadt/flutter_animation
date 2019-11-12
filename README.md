@@ -16,4 +16,5 @@ In this project i have experimented with the followings:-
 2. Stack and Positioned
 3. Indexed Stack
 4. Animated Positioned
+5. Flare Animation
 
